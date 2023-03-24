@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+                    
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+    
+    <key>CFBundleIcons</key>
+    <dict>
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array>
+                <string>astrologyicon.jpg</string>
+            </array>
+            <key>UIPrerenderedIcon</key>
+            <false/>
+        </dict>
+        <key>CFBundleAlternateIcons</key>
+        <dict>
+            
+            
+            <key>ariesicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>ariesicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            
+            <key>aquariusicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>aquariusicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            
+            <key>cancericon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>cancericon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            
+            <key>capricorn</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>capricornicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            <key>geminiicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>geminiicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            
+            <key>leoicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>leoicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            
+            <key>libraicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>libraicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            <key>piscesicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>piscesicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            <key>sagittariusicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>sagittariusicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            
+            <key>scorpioicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>scorpioicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            <key>taurusicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>taurusicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            <key>virgoicon</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>virgoicon.jpg</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            
+            
+            
+            
+        </dict>
+    </dict>
+    
+    
+</dict>
+</plist>

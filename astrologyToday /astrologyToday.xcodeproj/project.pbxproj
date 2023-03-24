@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30708EE429C90809002D47B8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30708EE329C90809002D47B8 /* ProfileView.swift */; };
+		30708EE629C9081D002D47B8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30708EE529C9081D002D47B8 /* ProfileViewController.swift */; };
+		30708EEA29C916B9002D47B8 /* UIStackView + HorizontalSeperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30708EE929C916B9002D47B8 /* UIStackView + HorizontalSeperators.swift */; };
+		3089198829C1F4200013917A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089198729C1F4200013917A /* AppDelegate.swift */; };
+		3089198A29C1F4200013917A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089198929C1F4200013917A /* SceneDelegate.swift */; };
+		3089199129C1F4200013917A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3089199029C1F4200013917A /* Assets.xcassets */; };
+		308919A129C1F5790013917A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919A029C1F5790013917A /* OnboardingViewController.swift */; };
+		308919A329C1F5870013917A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919A229C1F5870013917A /* OnboardingView.swift */; };
+		308919AB29C22C620013917A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 308919AA29C22C620013917A /* Alamofire */; };
+		308919AE29C22C790013917A /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 308919AD29C22C790013917A /* IQKeyboardManagerSwift */; };
+		308919BF29C22D790013917A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 308919BE29C22D780013917A /* GoogleService-Info.plist */; };
+		308919C229C2306E0013917A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919C129C2306E0013917A /* RegisterView.swift */; };
+		308919C429C2307C0013917A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919C329C2307C0013917A /* RegisterViewController.swift */; };
+		308919C629C233190013917A /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919C529C233190013917A /* SigninViewController.swift */; };
+		308919C829C233280013917A /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919C729C233280013917A /* SigninView.swift */; };
+		308919CC29C24DC50013917A /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919CB29C24DC50013917A /* ResetPasswordView.swift */; };
+		308919CE29C24E3D0013917A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919CD29C24E3D0013917A /* ResetPasswordViewController.swift */; };
+		308919D029C24E630013917A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919CF29C24E630013917A /* ForgotPasswordView.swift */; };
+		308919D229C24E760013917A /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919D129C24E760013917A /* ForgotViewController.swift */; };
+		308919D429C256AD0013917A /* ViewController + makeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919D329C256AD0013917A /* ViewController + makeAlert.swift */; };
+		308919D629C2592B0013917A /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919D529C2592B0013917A /* PrivacyPolicyView.swift */; };
+		308919D829C2594E0013917A /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919D729C2594E0013917A /* PrivacyPolicyViewController.swift */; };
+		308919DA29C2692F0013917A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919D929C2692F0013917A /* HomeViewController.swift */; };
+		308919DC29C2693B0013917A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919DB29C2693B0013917A /* HomeView.swift */; };
+		308919DE29C269FA0013917A /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919DD29C269FA0013917A /* TabbarViewController.swift */; };
+		30D0D0E929C3315C0033C7CD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0D0E829C3315C0033C7CD /* SettingsView.swift */; };
+		30D0D0EB29C331840033C7CD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0D0EA29C331840033C7CD /* SettingsViewController.swift */; };
+		30D0D0ED29C35B1E0033C7CD /* HoroscopeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0D0EC29C35B1E0033C7CD /* HoroscopeSelectorViewController.swift */; };
+		30D0D0EF29C35B330033C7CD /* HoroscopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0D0EE29C35B330033C7CD /* HoroscopeView.swift */; };
+		30D704F729CDDE5B00DACEA6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 30D704F629CDDE5B00DACEA6 /* FirebaseAuth */; };
+		30D704F929CDDE5B00DACEA6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 30D704F829CDDE5B00DACEA6 /* FirebaseDatabase */; };
+		30D704FB29CDDE5B00DACEA6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 30D704FA29CDDE5B00DACEA6 /* FirebaseFirestore */; };
+		30D704FD29CDDE5B00DACEA6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 30D704FC29CDDE5B00DACEA6 /* FirebaseFirestoreCombine-Community */; };
+		30D704FF29CDDE5B00DACEA6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 30D704FE29CDDE5B00DACEA6 /* FirebaseStorage */; };
+		30DC41A429C7CD6B000656CF /* LoveMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC41A329C7CD6B000656CF /* LoveMatchView.swift */; };
+		30DC41A729C7CD85000656CF /* LoveMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC41A629C7CD85000656CF /* LoveMatchViewController.swift */; };
+		30DC41A929C7CDB0000656CF /* LoveMatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC41A829C7CDB0000656CF /* LoveMatchModel.swift */; };
+		30DD952929CC737500D85992 /* TarotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD952829CC737500D85992 /* TarotModel.swift */; };
+		30DD952B29CCA1DF00D85992 /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD952A29CCA1DF00D85992 /* MoonView.swift */; };
+		30DD952D29CCA1ED00D85992 /* MoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD952C29CCA1ED00D85992 /* MoonViewController.swift */; };
+		30DD953029CD0B1E00D85992 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = 30DD952F29CD0B1E00D85992 /* iOSDropDown */; };
+		30DE61A329C9FABA0078AAF1 /* StringDate + Convertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE61A229C9FABA0078AAF1 /* StringDate + Convertor.swift */; };
+		30DE61A729CA491C0078AAF1 /* AztorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE61A629CA491C0078AAF1 /* AztorModel.swift */; };
+		30DE61A929CA68D40078AAF1 /* TarotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE61A829CA68D40078AAF1 /* TarotViewController.swift */; };
+		30DE61AB29CA68E20078AAF1 /* TarotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE61AA29CA68E20078AAF1 /* TarotView.swift */; };
+		30DFD22C29C5E67400786414 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFD22B29C5E67300786414 /* NetworkController.swift */; };
+		30DFD22E29C5E73C00786414 /* FortuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFD22D29C5E73B00786414 /* FortuneView.swift */; };
+		30DFD23029C5E74900786414 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFD22F29C5E74900786414 /* FortuneViewController.swift */; };
+		30DFD23229C6098000786414 /* FortuneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFD23129C6098000786414 /* FortuneModel.swift */; };
+		30DFD23429C781E900786414 /* ChangeAppIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFD23329C781E900786414 /* ChangeAppIconViewController.swift */; };
+		30DFD23629C781F800786414 /* ChangeAppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFD23529C781F800786414 /* ChangeAppIconView.swift */; };
+		30DFD24729C78B8C00786414 /* taurusicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD23A29C78B8B00786414 /* taurusicon.jpg */; };
+		30DFD24829C78B8C00786414 /* piscesicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD23B29C78B8C00786414 /* piscesicon.jpg */; };
+		30DFD24929C78B8C00786414 /* leoicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD23C29C78B8C00786414 /* leoicon.jpg */; };
+		30DFD24A29C78B8C00786414 /* capricornicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD23D29C78B8C00786414 /* capricornicon.jpg */; };
+		30DFD24B29C78B8C00786414 /* geminiicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD23E29C78B8C00786414 /* geminiicon.jpg */; };
+		30DFD24C29C78B8C00786414 /* aquariusicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD23F29C78B8C00786414 /* aquariusicon.jpg */; };
+		30DFD24D29C78B8C00786414 /* sagittariusicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD24029C78B8C00786414 /* sagittariusicon.jpg */; };
+		30DFD24E29C78B8C00786414 /* scorpioicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD24129C78B8C00786414 /* scorpioicon.jpg */; };
+		30DFD24F29C78B8C00786414 /* virgoicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD24229C78B8C00786414 /* virgoicon.jpg */; };
+		30DFD25029C78B8C00786414 /* astrologyicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD24329C78B8C00786414 /* astrologyicon.jpg */; };
+		30DFD25129C78B8C00786414 /* cancericon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD24429C78B8C00786414 /* cancericon.jpg */; };
+		30DFD25229C78B8C00786414 /* ariesicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD24529C78B8C00786414 /* ariesicon.jpg */; };
+		30DFD25329C78B8C00786414 /* libraicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DFD24629C78B8C00786414 /* libraicon.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30708EE329C90809002D47B8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		30708EE529C9081D002D47B8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		30708EE929C916B9002D47B8 /* UIStackView + HorizontalSeperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + HorizontalSeperators.swift"; sourceTree = "<group>"; };
+		3089198429C1F4200013917A /* astrologyToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astrologyToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3089198729C1F4200013917A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3089198929C1F4200013917A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3089199029C1F4200013917A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3089199529C1F4200013917A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308919A029C1F5790013917A /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		308919A229C1F5870013917A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		308919BE29C22D780013917A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		308919C129C2306E0013917A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		308919C329C2307C0013917A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		308919C529C233190013917A /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		308919C729C233280013917A /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		308919CB29C24DC50013917A /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		308919CD29C24E3D0013917A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		308919CF29C24E630013917A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		308919D129C24E760013917A /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		308919D329C256AD0013917A /* ViewController + makeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + makeAlert.swift"; sourceTree = "<group>"; };
+		308919D529C2592B0013917A /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		308919D729C2594E0013917A /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		308919D929C2692F0013917A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		308919DB29C2693B0013917A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		308919DD29C269FA0013917A /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		30D0D0E829C3315C0033C7CD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30D0D0EA29C331840033C7CD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		30D0D0EC29C35B1E0033C7CD /* HoroscopeSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeSelectorViewController.swift; sourceTree = "<group>"; };
+		30D0D0EE29C35B330033C7CD /* HoroscopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeView.swift; sourceTree = "<group>"; };
+		30DC41A329C7CD6B000656CF /* LoveMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMatchView.swift; sourceTree = "<group>"; };
+		30DC41A629C7CD85000656CF /* LoveMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMatchViewController.swift; sourceTree = "<group>"; };
+		30DC41A829C7CDB0000656CF /* LoveMatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMatchModel.swift; sourceTree = "<group>"; };
+		30DD952829CC737500D85992 /* TarotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotModel.swift; sourceTree = "<group>"; };
+		30DD952A29CCA1DF00D85992 /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
+		30DD952C29CCA1ED00D85992 /* MoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonViewController.swift; sourceTree = "<group>"; };
+		30DE61A229C9FABA0078AAF1 /* StringDate + Convertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringDate + Convertor.swift"; sourceTree = "<group>"; };
+		30DE61A629CA491C0078AAF1 /* AztorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AztorModel.swift; sourceTree = "<group>"; };
+		30DE61A829CA68D40078AAF1 /* TarotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotViewController.swift; sourceTree = "<group>"; };
+		30DE61AA29CA68E20078AAF1 /* TarotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotView.swift; sourceTree = "<group>"; };
+		30DFD22B29C5E67300786414 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		30DFD22D29C5E73B00786414 /* FortuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneView.swift; sourceTree = "<group>"; };
+		30DFD22F29C5E74900786414 /* FortuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
+		30DFD23129C6098000786414 /* FortuneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneModel.swift; sourceTree = "<group>"; };
+		30DFD23329C781E900786414 /* ChangeAppIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAppIconViewController.swift; sourceTree = "<group>"; };
+		30DFD23529C781F800786414 /* ChangeAppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAppIconView.swift; sourceTree = "<group>"; };
+		30DFD23A29C78B8B00786414 /* taurusicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taurusicon.jpg; sourceTree = "<group>"; };
+		30DFD23B29C78B8C00786414 /* piscesicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piscesicon.jpg; sourceTree = "<group>"; };
+		30DFD23C29C78B8C00786414 /* leoicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leoicon.jpg; sourceTree = "<group>"; };
+		30DFD23D29C78B8C00786414 /* capricornicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = capricornicon.jpg; sourceTree = "<group>"; };
+		30DFD23E29C78B8C00786414 /* geminiicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = geminiicon.jpg; sourceTree = "<group>"; };
+		30DFD23F29C78B8C00786414 /* aquariusicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aquariusicon.jpg; sourceTree = "<group>"; };
+		30DFD24029C78B8C00786414 /* sagittariusicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sagittariusicon.jpg; sourceTree = "<group>"; };
+		30DFD24129C78B8C00786414 /* scorpioicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scorpioicon.jpg; sourceTree = "<group>"; };
+		30DFD24229C78B8C00786414 /* virgoicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = virgoicon.jpg; sourceTree = "<group>"; };
+		30DFD24329C78B8C00786414 /* astrologyicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astrologyicon.jpg; sourceTree = "<group>"; };
+		30DFD24429C78B8C00786414 /* cancericon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cancericon.jpg; sourceTree = "<group>"; };
+		30DFD24529C78B8C00786414 /* ariesicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ariesicon.jpg; sourceTree = "<group>"; };
+		30DFD24629C78B8C00786414 /* libraicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = libraicon.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3089198129C1F4200013917A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D704F929CDDE5B00DACEA6 /* FirebaseDatabase in Frameworks */,
+				308919AB29C22C620013917A /* Alamofire in Frameworks */,
+				30DD953029CD0B1E00D85992 /* iOSDropDown in Frameworks */,
+				308919AE29C22C790013917A /* IQKeyboardManagerSwift in Frameworks */,
+				30D704F729CDDE5B00DACEA6 /* FirebaseAuth in Frameworks */,
+				30D704FF29CDDE5B00DACEA6 /* FirebaseStorage in Frameworks */,
+				30D704FB29CDDE5B00DACEA6 /* FirebaseFirestore in Frameworks */,
+				30D704FD29CDDE5B00DACEA6 /* FirebaseFirestoreCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3089197B29C1F4200013917A = {
+			isa = PBXGroup;
+			children = (
+				3089198629C1F4200013917A /* astrologyToday */,
+				3089198529C1F4200013917A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3089198529C1F4200013917A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3089198429C1F4200013917A /* astrologyToday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3089198629C1F4200013917A /* astrologyToday */ = {
+			isa = PBXGroup;
+			children = (
+				30DFD23729C78B0A00786414 /* AppIconCustomizer */,
+				30DFD22A29C5E62B00786414 /* Network */,
+				3089199F29C1F4390013917A /* Support Files */,
+				3089199E29C1F4310013917A /* Extension */,
+				3089199D29C1F42C0013917A /* Controller */,
+				3089199C29C1F4280013917A /* View */,
+				3089199B29C1F4240013917A /* Model */,
+				3089199529C1F4200013917A /* Info.plist */,
+				308919BE29C22D780013917A /* GoogleService-Info.plist */,
+			);
+			path = astrologyToday;
+			sourceTree = "<group>";
+		};
+		3089199B29C1F4240013917A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30DFD23129C6098000786414 /* FortuneModel.swift */,
+				30DC41A829C7CDB0000656CF /* LoveMatchModel.swift */,
+				30DE61A629CA491C0078AAF1 /* AztorModel.swift */,
+				30DD952829CC737500D85992 /* TarotModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3089199C29C1F4280013917A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				308919A229C1F5870013917A /* OnboardingView.swift */,
+				308919C129C2306E0013917A /* RegisterView.swift */,
+				308919C729C233280013917A /* SigninView.swift */,
+				308919CB29C24DC50013917A /* ResetPasswordView.swift */,
+				308919CF29C24E630013917A /* ForgotPasswordView.swift */,
+				30DFD22D29C5E73B00786414 /* FortuneView.swift */,
+				308919D529C2592B0013917A /* PrivacyPolicyView.swift */,
+				308919DB29C2693B0013917A /* HomeView.swift */,
+				30D0D0E829C3315C0033C7CD /* SettingsView.swift */,
+				30D0D0EE29C35B330033C7CD /* HoroscopeView.swift */,
+				30DFD23529C781F800786414 /* ChangeAppIconView.swift */,
+				30DC41A329C7CD6B000656CF /* LoveMatchView.swift */,
+				30708EE329C90809002D47B8 /* ProfileView.swift */,
+				30DE61AA29CA68E20078AAF1 /* TarotView.swift */,
+				30DD952A29CCA1DF00D85992 /* MoonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3089199D29C1F42C0013917A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				308919A029C1F5790013917A /* OnboardingViewController.swift */,
+				308919C329C2307C0013917A /* RegisterViewController.swift */,
+				308919C529C233190013917A /* SigninViewController.swift */,
+				308919CD29C24E3D0013917A /* ResetPasswordViewController.swift */,
+				308919D129C24E760013917A /* ForgotViewController.swift */,
+				308919D729C2594E0013917A /* PrivacyPolicyViewController.swift */,
+				308919D929C2692F0013917A /* HomeViewController.swift */,
+				30DFD22F29C5E74900786414 /* FortuneViewController.swift */,
+				308919DD29C269FA0013917A /* TabbarViewController.swift */,
+				30D0D0EC29C35B1E0033C7CD /* HoroscopeSelectorViewController.swift */,
+				30D0D0EA29C331840033C7CD /* SettingsViewController.swift */,
+				30DFD23329C781E900786414 /* ChangeAppIconViewController.swift */,
+				30DC41A629C7CD85000656CF /* LoveMatchViewController.swift */,
+				30708EE529C9081D002D47B8 /* ProfileViewController.swift */,
+				30DE61A829CA68D40078AAF1 /* TarotViewController.swift */,
+				30DD952C29CCA1ED00D85992 /* MoonViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3089199E29C1F4310013917A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				308919D329C256AD0013917A /* ViewController + makeAlert.swift */,
+				30708EE929C916B9002D47B8 /* UIStackView + HorizontalSeperators.swift */,
+				30DE61A229C9FABA0078AAF1 /* StringDate + Convertor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3089199F29C1F4390013917A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3089198929C1F4200013917A /* SceneDelegate.swift */,
+				3089199029C1F4200013917A /* Assets.xcassets */,
+				3089198729C1F4200013917A /* AppDelegate.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		30DFD22A29C5E62B00786414 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				30DFD22B29C5E67300786414 /* NetworkController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		30DFD23729C78B0A00786414 /* AppIconCustomizer */ = {
+			isa = PBXGroup;
+			children = (
+				30DFD23F29C78B8C00786414 /* aquariusicon.jpg */,
+				30DFD24529C78B8C00786414 /* ariesicon.jpg */,
+				30DFD24329C78B8C00786414 /* astrologyicon.jpg */,
+				30DFD24429C78B8C00786414 /* cancericon.jpg */,
+				30DFD23D29C78B8C00786414 /* capricornicon.jpg */,
+				30DFD23E29C78B8C00786414 /* geminiicon.jpg */,
+				30DFD23C29C78B8C00786414 /* leoicon.jpg */,
+				30DFD24629C78B8C00786414 /* libraicon.jpg */,
+				30DFD23B29C78B8C00786414 /* piscesicon.jpg */,
+				30DFD24029C78B8C00786414 /* sagittariusicon.jpg */,
+				30DFD24129C78B8C00786414 /* scorpioicon.jpg */,
+				30DFD23A29C78B8B00786414 /* taurusicon.jpg */,
+				30DFD24229C78B8C00786414 /* virgoicon.jpg */,
+			);
+			path = AppIconCustomizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3089198329C1F4200013917A /* astrologyToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3089199829C1F4200013917A /* Build configuration list for PBXNativeTarget "astrologyToday" */;
+			buildPhases = (
+				3089198029C1F4200013917A /* Sources */,
+				3089198129C1F4200013917A /* Frameworks */,
+				3089198229C1F4200013917A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = astrologyToday;
+			packageProductDependencies = (
+				308919AA29C22C620013917A /* Alamofire */,
+				308919AD29C22C790013917A /* IQKeyboardManagerSwift */,
+				30DD952F29CD0B1E00D85992 /* iOSDropDown */,
+				30D704F629CDDE5B00DACEA6 /* FirebaseAuth */,
+				30D704F829CDDE5B00DACEA6 /* FirebaseDatabase */,
+				30D704FA29CDDE5B00DACEA6 /* FirebaseFirestore */,
+				30D704FC29CDDE5B00DACEA6 /* FirebaseFirestoreCombine-Community */,
+				30D704FE29CDDE5B00DACEA6 /* FirebaseStorage */,
+			);
+			productName = astrologyToday;
+			productReference = 3089198429C1F4200013917A /* astrologyToday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3089197C29C1F4200013917A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3089198329C1F4200013917A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3089197F29C1F4200013917A /* Build configuration list for PBXProject "astrologyToday" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3089197B29C1F4200013917A;
+			packageReferences = (
+				308919A929C22C620013917A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				308919AC29C22C790013917A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				30DD952E29CD0B1E00D85992 /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+				30D704F529CDDE5B00DACEA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3089198529C1F4200013917A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3089198329C1F4200013917A /* astrologyToday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3089198229C1F4200013917A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DFD24A29C78B8C00786414 /* capricornicon.jpg in Resources */,
+				30DFD25029C78B8C00786414 /* astrologyicon.jpg in Resources */,
+				30DFD24E29C78B8C00786414 /* scorpioicon.jpg in Resources */,
+				3089199129C1F4200013917A /* Assets.xcassets in Resources */,
+				30DFD24B29C78B8C00786414 /* geminiicon.jpg in Resources */,
+				30DFD25229C78B8C00786414 /* ariesicon.jpg in Resources */,
+				30DFD24F29C78B8C00786414 /* virgoicon.jpg in Resources */,
+				30DFD24C29C78B8C00786414 /* aquariusicon.jpg in Resources */,
+				30DFD24929C78B8C00786414 /* leoicon.jpg in Resources */,
+				30DFD25129C78B8C00786414 /* cancericon.jpg in Resources */,
+				30DFD24829C78B8C00786414 /* piscesicon.jpg in Resources */,
+				308919BF29C22D790013917A /* GoogleService-Info.plist in Resources */,
+				30DFD24D29C78B8C00786414 /* sagittariusicon.jpg in Resources */,
+				30DFD24729C78B8C00786414 /* taurusicon.jpg in Resources */,
+				30DFD25329C78B8C00786414 /* libraicon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3089198029C1F4200013917A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3089198829C1F4200013917A /* AppDelegate.swift in Sources */,
+				308919A329C1F5870013917A /* OnboardingView.swift in Sources */,
+				30D0D0ED29C35B1E0033C7CD /* HoroscopeSelectorViewController.swift in Sources */,
+				30DFD22E29C5E73C00786414 /* FortuneView.swift in Sources */,
+				30DFD23629C781F800786414 /* ChangeAppIconView.swift in Sources */,
+				308919D229C24E760013917A /* ForgotViewController.swift in Sources */,
+				30DD952B29CCA1DF00D85992 /* MoonView.swift in Sources */,
+				30DFD22C29C5E67400786414 /* NetworkController.swift in Sources */,
+				30D0D0EB29C331840033C7CD /* SettingsViewController.swift in Sources */,
+				308919CE29C24E3D0013917A /* ResetPasswordViewController.swift in Sources */,
+				30DE61A329C9FABA0078AAF1 /* StringDate + Convertor.swift in Sources */,
+				308919DA29C2692F0013917A /* HomeViewController.swift in Sources */,
+				308919C829C233280013917A /* SigninView.swift in Sources */,
+				30DE61A929CA68D40078AAF1 /* TarotViewController.swift in Sources */,
+				30DE61A729CA491C0078AAF1 /* AztorModel.swift in Sources */,
+				308919D829C2594E0013917A /* PrivacyPolicyViewController.swift in Sources */,
+				308919DE29C269FA0013917A /* TabbarViewController.swift in Sources */,
+				30DE61AB29CA68E20078AAF1 /* TarotView.swift in Sources */,
+				30DC41A429C7CD6B000656CF /* LoveMatchView.swift in Sources */,
+				308919C429C2307C0013917A /* RegisterViewController.swift in Sources */,
+				308919CC29C24DC50013917A /* ResetPasswordView.swift in Sources */,
+				30DD952929CC737500D85992 /* TarotModel.swift in Sources */,
+				308919C629C233190013917A /* SigninViewController.swift in Sources */,
+				30708EEA29C916B9002D47B8 /* UIStackView + HorizontalSeperators.swift in Sources */,
+				30DFD23229C6098000786414 /* FortuneModel.swift in Sources */,
+				30DD952D29CCA1ED00D85992 /* MoonViewController.swift in Sources */,
+				308919C229C2306E0013917A /* RegisterView.swift in Sources */,
+				308919D029C24E630013917A /* ForgotPasswordView.swift in Sources */,
+				30DFD23429C781E900786414 /* ChangeAppIconViewController.swift in Sources */,
+				30D0D0E929C3315C0033C7CD /* SettingsView.swift in Sources */,
+				308919D629C2592B0013917A /* PrivacyPolicyView.swift in Sources */,
+				30D0D0EF29C35B330033C7CD /* HoroscopeView.swift in Sources */,
+				30708EE429C90809002D47B8 /* ProfileView.swift in Sources */,
+				30DC41A729C7CD85000656CF /* LoveMatchViewController.swift in Sources */,
+				308919A129C1F5790013917A /* OnboardingViewController.swift in Sources */,
+				30DFD23029C5E74900786414 /* FortuneViewController.swift in Sources */,
+				308919D429C256AD0013917A /* ViewController + makeAlert.swift in Sources */,
+				3089198A29C1F4200013917A /* SceneDelegate.swift in Sources */,
+				30708EE629C9081D002D47B8 /* ProfileViewController.swift in Sources */,
+				308919DC29C2693B0013917A /* HomeView.swift in Sources */,
+				30DC41A929C7CDB0000656CF /* LoveMatchModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3089199629C1F4200013917A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3089199729C1F4200013917A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3089199929C1F4200013917A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LZLJ23WR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = astrologyToday/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacimen.astrologyToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3089199A29C1F4200013917A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LZLJ23WR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = astrologyToday/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacimen.astrologyToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3089197F29C1F4200013917A /* Build configuration list for PBXProject "astrologyToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3089199629C1F4200013917A /* Debug */,
+				3089199729C1F4200013917A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3089199829C1F4200013917A /* Build configuration list for PBXNativeTarget "astrologyToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3089199929C1F4200013917A /* Debug */,
+				3089199A29C1F4200013917A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		308919A929C22C620013917A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		308919AC29C22C790013917A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		30D704F529CDDE5B00DACEA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		30DD952E29CD0B1E00D85992 /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		308919AA29C22C620013917A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 308919A929C22C620013917A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		308919AD29C22C790013917A /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 308919AC29C22C790013917A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		30D704F629CDDE5B00DACEA6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D704F529CDDE5B00DACEA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		30D704F829CDDE5B00DACEA6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D704F529CDDE5B00DACEA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		30D704FA29CDDE5B00DACEA6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D704F529CDDE5B00DACEA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		30D704FC29CDDE5B00DACEA6 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D704F529CDDE5B00DACEA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		30D704FE29CDDE5B00DACEA6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D704F529CDDE5B00DACEA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		30DD952F29CD0B1E00D85992 /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30DD952E29CD0B1E00D85992 /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3089197C29C1F4200013917A /* Project object */;
+}
