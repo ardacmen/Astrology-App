@@ -5,7 +5,7 @@ This is an astrology app written in Swift using the programmatic and MVC archite
 - Swift
 - Programmatic UI
 - MVC Architecture
-- Kaybordemanager
+- QAKaybordManager
 - Dropdown Menu
 - Firebase Auth / Core
 - Features
