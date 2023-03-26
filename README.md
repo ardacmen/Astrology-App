@@ -1,14 +1,14 @@
 # Astrology App
 This is an astrology app written in Swift using the programmatic and MVC architecture. The app includes various features such as tarot readings, moon phases calculator, fortune cookie, daily horoscope, and settings pages. The app utilizes three different APIs: Aztro API, Fortune API, and Tarot API.
 
--Technologies Used
--Swift
--Programmatic UI
--MVC Architecture
--Kaybordemanager
--Dropdown Menu
--Firebase Auth / Core
--Features
+- Technologies Used
+- Swift
+- Programmatic UI
+- MVC Architecture
+- Kaybordemanager
+- Dropdown Menu
+- Firebase Auth / Core
+- Features
 # The astrology app includes the following features:
 
 # Tarot Readings
